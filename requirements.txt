@@ -1,0 +1,20 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Script
+Flask-Login
+psycopg2
+
+# ----------------------
+# Production Server
+# ----------------------
+gunicorn
+Werkzeug
+Click
+itsdangerous
+Jinja2
+MarkupSafe
