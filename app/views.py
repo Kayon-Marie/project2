@@ -6,10 +6,11 @@ This file creates your application.
 """
 
 from app import app, db, login_manager
-from flask import render_template, request, redirect, url_for, flash
+from flask import render_template, request, redirect, url_for, flash, jsonify
 from flask_login import login_user, logout_user, current_user, login_required
-from app.forms import LoginForm
+from app.forms import RegisterForm, PostsForm
 from app.models import Users, Likes, Follows, Posts
+from werkzeug.utils import secure_filename
 
 
 ###
